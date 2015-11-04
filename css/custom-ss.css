@@ -1,0 +1,128 @@
+body{
+	/*background: #e3e3e3;*/
+	/*background: rgba(98,188,239, 0.2); 	*/
+	/*background: rgba(255,255,255);*/
+	background: #fff;
+	font : 20px;
+	font-family: "open sans";
+	line-height: 1.8em; 
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(35%,#ddf1f9), color-stop(100%,#a0d8ef)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+
+}
+
+.jumbotron{
+	padding-top: 100px;
+	text-align: center;
+	font-family: Lato;
+	font-weight: 400;
+	/*background: url('../img/stonewet.jpg') center center;*/
+	background: url('../img/sandstone.jpg') center center;
+	background-size: cover;
+	height: 450px;
+	color: #fff;
+}
+
+.jumbotron h1, .navbar a, .jumbotron p{
+	font-family: Lato;
+	font-weight: 400;
+	/*font-size: 30px;*/
+	color: #eee;
+}
+.heading{
+	margin-top: 120px;
+}
+
+.navbar ul {
+	margin-top: 15px;
+}
+
+.container{
+	max-width: 1100px;
+	color: #222;
+}
+
+.footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+/*.footer ul li:first{
+	padding-left: 0;
+	margin-left: 0;
+}*/
+
+.footer .left{
+	float: left;
+}
+
+.footer .clear{
+	clear: both;
+}
+
+.footer ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.footer ul li a:hover{
+	color: #111;
+	font-style: italic;
+}
+
+.footer .right{
+	float: right;
+	padding: 10px;
+	color: #888;
+}
+.navbar, .navbar-inverse {
+	opacity: 1;
+}
+.navbar-nav li a {
+	opacity: 1;
+	font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ddd;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #fff;
+	font-size: 19px;
+}
+
+.navbar-inverse{
+	/*background: rgba(34,34,34, 0.8)*/
+/*	background: rgba(98,188,239, 0.8);*/
+		/*background: #2514B2;*/
+		background: rgba(37,13,91,0.7);
+
+}
+
+/*hr {
+	height: 1px;
+	border: none;
+	color: #ddd;
+	background-color:#999; 
+}*/
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
